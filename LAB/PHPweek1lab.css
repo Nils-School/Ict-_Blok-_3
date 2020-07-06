@@ -1,0 +1,17 @@
+body {
+  background-size: cover;
+}
+.text {
+  font-family: 'Lacquer', sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+.text2 {
+  font-family: 'Lacquer', sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-top: 2%;
+  margin-left: 38%;
+}

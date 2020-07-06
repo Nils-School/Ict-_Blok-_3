@@ -1,21 +1,31 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Medewerker</title>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 	
-	<link rel="stylesheet" href="<?= URL ?>/css/style.css">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          <link rel="stylesheet" href="<?= URL ?>/css/style.css">
+    <title>Document</title>
 </head>
 <body>
-<div id="container">
-<nav>
-	<ul>
-		<li><a href="<?=URL?>employee/index"><i class="fas fa-users"></i></a></li>
-		<li><a href="<?=URL?>employee/create"><i class="fas fa-user-plus"></i></a></li>
-	</ul>
+<nav class="navbar navbar-expand navbar-light bg-light sticky-top">
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+				<a href="<?=URL?>planning/index">Games </a>
+            </li>
+            <p>|</p>
+            <li class="nav-item">
+				<a href=" <?=URL?>planning/plangame">Plan </a>
+            </li>
+            <p>|</p>
+            <li class="nav-item">
+				<a href=" <?=URL?>planning/planning">Planning </a>
+            </li>
+        </ul>
+    </div>
 </nav>

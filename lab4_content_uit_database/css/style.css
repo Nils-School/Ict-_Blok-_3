@@ -1,0 +1,34 @@
+.menu {
+  width: 700px;
+  height: 40px;
+  background-color: crimson;
+  color: white;
+  padding-top: 10px;
+  margin-left: 300px;
+}
+.onderwerp1,
+.onderwerp2,
+.onderwerp3 {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+.onderwerp1 {
+  margin-left: 20px;
+}
+.onderwerp2 {
+  margin-left: 20px;
+}
+.onderwerp3 {
+  margin-left: 20px;
+}
+.onderwerpfooter {
+  margin-left: 200px;
+}
+.footer {
+  width: 700px;
+  height: 20px;
+  background-color: crimson;
+  color: white;
+  margin-left: 300px;
+}
