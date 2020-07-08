@@ -225,20 +225,7 @@ function GetPlannedStart($result){
     $conn = null;
     return $result;
 }
-function validCheck(){
-    if(empty($_POST['explainer'])){
-        $Err = 'chopies';
-    }
-    if(empty($_POST['date'])){
-        $Err = 'chopies';
-    }
-    if(empty($_POST['start'])){
-        $Err = 'chopies';
-    }
-    if(empty($_POST['players'])){
-        $Err = 'chopies';
-    }
-}
+
 function destroyPlanning($id){
   try{ 
    $conn=openDatabaseConnection();
